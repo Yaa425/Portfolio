@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: white; /* Optional: ensures nav is visible against the content below */
+    z-index: 1000;
+}
+.nav-links{
+    display: flex;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.logo
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links li{
+    padding: 0 20px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+/* Hero Section */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    padding: 10px;
+    margin-top: 20px;
+}
+#home img{
+    width: 50%;
+}
+
+
+h1{
+    font-size: 5rem; 
+    padding: 10px;
+    color: #000000;
+}
+
+#about{
+    height: 100vh;
+    background-color: #e9e9e9;
+    padding: 10px;
+    margin-top: 20px;
+}
+#about h2{
+    font-size: 4rem;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+}
+
+#work h2{
+    font-size: 4rem;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+}
+
+#about p{
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    padding: 50px;
+}
+
+#work{
+    height: 100vh;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    display: block; /* This ensures that the images are block-level elements, helping with responsiveness */
+  }
+  
+  .project p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 50vh;
+    background-color: #e9e9e9;
+    color: #000;
+    padding: 10px;
+}
+#contact span p{
+    font-size: 2rem;
+    padding: 20px
+}
+#contact h2{
+    font-size: 3rem;
+    color: #000;
+}
+
+#contact form{
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px;
+}
